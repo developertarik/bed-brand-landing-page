@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,200&display=swap');
 body{
-    background-color: rgb(203, 243, 178);
+}
+.bed-image{
+    z-index:-1;   
+    position:relative;
 }
 .header-one{
     font-family: "Inter Tight",sans-serif;
     color:rgb(17, 17, 104); 
-    display:flex;
-    justify-content: center;
-    margin-top:70px;
-    font-size: x-large;
+    
+
 }
 .header-two{
     color:rgb(17, 17, 104); 
     font-size: xx-large;
-    background-color: aliceblue;
+  
 
 }
 .main-page-top{
@@ -30,4 +31,19 @@ body{
     width:120px;
     height: 40px;
     font-family: 'Courier New', Courier, monospace;
+}
+.flex-container{
+    margin-top:100px;
+    background-color: cadetblue;
+    display:flex;
+    gap:50px;
+    padding: 50px 100px;
+    color:white;
+    background-color:rgb(58, 58, 139);
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
