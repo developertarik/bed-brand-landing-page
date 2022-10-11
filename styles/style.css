@@ -1,1 +1,18 @@
- 
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,200&display=swap');
+body{
+    background-color: rgb(166, 119, 210);
+}
+.header-one{
+    font-family: "Inter Tight",sans-serif;
+    color:rgb(17, 17, 104); 
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: x-large;
+}
+.main-page-top{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
